@@ -26,7 +26,7 @@ int main(){
         int* a=new int(n);
         for(int j=0;j<n;j++)
         cin>>a[j];
-       // Qsort(a,0,n-1);
+        Qsort(a,0,n-1);
         for(int j=0;j<n;j++)
         cout<<a[j]<<",";
         cin>>k;
